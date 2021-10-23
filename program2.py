@@ -1,0 +1,6 @@
+apples_str = input('How many apples you want to buy?:')
+oranges_str = input('How many oranges you want to buy?:')
+apples = int(apples_str)
+oranges = int(oranges_str)
+total = (apples*20) + (oranges*25) 
+print(f'The total amount is {total}')

@@ -1,0 +1,7 @@
+money_str = input('How much money you have?:')
+apple_str = input('How much is an apple?:')
+amount_money = float(money_str)
+apple_price = float(apple_str)
+maximum_apple = int(amount_money//apple_price)
+change = amount_money-(maximum_apple*apple_price)
+print(f'You can buy {maximum_apple} apples and your change is {change} pesos')
